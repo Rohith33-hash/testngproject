@@ -23,7 +23,7 @@ public void method() throws InterruptedException{
 	driver.findElement(By.name("password")).sendKeys("admin123");
 	driver.findElement(By.xpath("//button[@type='submit']")).click();
 	Thread.sleep(5000);
-	driver.close();
+	driver.quit();
 	
 }
 
